@@ -1,6 +1,6 @@
-import React from 'react'
-import Head from 'next/head'
-import { Preview } from 'react-bricks/frontend'
+import React from "react";
+import Head from "next/head";
+import { Preview } from "react-bricks/frontend";
 
 const PagePreview: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ const PagePreview: React.FC = () => {
       </Head>
       <Preview />
     </>
-  )
-}
+  );
+};
 
-export default PagePreview
+export default PagePreview;
