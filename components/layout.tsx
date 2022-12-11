@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       <main className="mb-auto">{children}</main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
