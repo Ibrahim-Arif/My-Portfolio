@@ -28,10 +28,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   }
 
   return (
-    <ReactBricks {...reactBricksConfig}>
-      <Component {...pageProps} />
+    <>
+      <ReactBricks {...reactBricksConfig}>
+        <Component {...pageProps} />
+      </ReactBricks>
+
       <Analytics />
-    </ReactBricks>
+    </>
   )
 }
 
